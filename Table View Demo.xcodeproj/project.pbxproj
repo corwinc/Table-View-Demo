@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C8B296C29DE63505BE47065 /* Pods_Table_View_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6A6377E20CA74BEC8F5CF6 /* Pods_Table_View_Demo.framework */; };
 		FC66B0231C8F73FF00983C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC66B0221C8F73FF00983C12 /* AppDelegate.swift */; };
 		FC66B0251C8F73FF00983C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC66B0241C8F73FF00983C12 /* ViewController.swift */; };
 		FC66B0281C8F73FF00983C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC66B0261C8F73FF00983C12 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		FC66B02D1C8F73FF00983C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC66B02B1C8F73FF00983C12 /* LaunchScreen.storyboard */; };
 		FC66B0381C8F73FF00983C12 /* Table_View_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC66B0371C8F73FF00983C12 /* Table_View_DemoTests.swift */; };
 		FC66B0431C8F73FF00983C12 /* Table_View_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC66B0421C8F73FF00983C12 /* Table_View_DemoUITests.swift */; };
+		FC66B0551C8F778D00983C12 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC66B0541C8F778D00983C12 /* UserCell.swift */; };
+		FC66B0571C8F8D9700983C12 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC66B0561C8F8D9700983C12 /* MovieCell.swift */; };
+		FC66B0591C8F967B00983C12 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC66B0581C8F967B00983C12 /* PhotosViewController.swift */; };
+		FC66B05B1C8F97D100983C12 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC66B05A1C8F97D100983C12 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1891C58FA765AC6F9283A694 /* Pods-Table View Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Table View Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Table View Demo/Pods-Table View Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6A6377E20CA74BEC8F5CF6 /* Pods_Table_View_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Table_View_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89433AD485B01915C2A89115 /* Pods-Table View Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Table View Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Table View Demo/Pods-Table View Demo.release.xcconfig"; sourceTree = "<group>"; };
 		FC66B01F1C8F73FF00983C12 /* Table View Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC66B0221C8F73FF00983C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC66B0241C8F73FF00983C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		FC66B03E1C8F73FF00983C12 /* Table View DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table View DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC66B0421C8F73FF00983C12 /* Table_View_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_View_DemoUITests.swift; sourceTree = "<group>"; };
 		FC66B0441C8F73FF00983C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC66B0541C8F778D00983C12 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		FC66B0561C8F8D9700983C12 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		FC66B0581C8F967B00983C12 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		FC66B05A1C8F97D100983C12 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8B296C29DE63505BE47065 /* Pods_Table_View_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F2BBE477DC4699D498B0340 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1891C58FA765AC6F9283A694 /* Pods-Table View Demo.debug.xcconfig */,
+				89433AD485B01915C2A89115 /* Pods-Table View Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F11FDF7B8A32522BC4C03892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C6A6377E20CA74BEC8F5CF6 /* Pods_Table_View_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC66B0161C8F73FF00983C12 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				FC66B0361C8F73FF00983C12 /* Table View DemoTests */,
 				FC66B0411C8F73FF00983C12 /* Table View DemoUITests */,
 				FC66B0201C8F73FF00983C12 /* Products */,
+				5F2BBE477DC4699D498B0340 /* Pods */,
+				F11FDF7B8A32522BC4C03892 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +131,11 @@
 			children = (
 				FC66B0221C8F73FF00983C12 /* AppDelegate.swift */,
 				FC66B0241C8F73FF00983C12 /* ViewController.swift */,
+				FC66B0541C8F778D00983C12 /* UserCell.swift */,
+				FC66B0561C8F8D9700983C12 /* MovieCell.swift */,
 				FC66B0261C8F73FF00983C12 /* Main.storyboard */,
+				FC66B0581C8F967B00983C12 /* PhotosViewController.swift */,
+				FC66B05A1C8F97D100983C12 /* PhotoCell.swift */,
 				FC66B0291C8F73FF00983C12 /* Assets.xcassets */,
 				FC66B02B1C8F73FF00983C12 /* LaunchScreen.storyboard */,
 				FC66B02E1C8F73FF00983C12 /* Info.plist */,
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC66B0471C8F73FF00983C12 /* Build configuration list for PBXNativeTarget "Table View Demo" */;
 			buildPhases = (
+				AC1A1971676DBC4DBBF5AE7F /* Check Pods Manifest.lock */,
 				FC66B01B1C8F73FF00983C12 /* Sources */,
 				FC66B01C1C8F73FF00983C12 /* Frameworks */,
 				FC66B01D1C8F73FF00983C12 /* Resources */,
+				269B414153B8DE0DF7F559E3 /* Embed Pods Frameworks */,
+				6F813AD66838F7FB5A9397AD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +290,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		269B414153B8DE0DF7F559E3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Table View Demo/Pods-Table View Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F813AD66838F7FB5A9397AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Table View Demo/Pods-Table View Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC1A1971676DBC4DBBF5AE7F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC66B01B1C8F73FF00983C12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +345,10 @@
 			files = (
 				FC66B0251C8F73FF00983C12 /* ViewController.swift in Sources */,
 				FC66B0231C8F73FF00983C12 /* AppDelegate.swift in Sources */,
+				FC66B0571C8F8D9700983C12 /* MovieCell.swift in Sources */,
+				FC66B0551C8F778D00983C12 /* UserCell.swift in Sources */,
+				FC66B05B1C8F97D100983C12 /* PhotoCell.swift in Sources */,
+				FC66B0591C8F967B00983C12 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +486,7 @@
 		};
 		FC66B0481C8F73FF00983C12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1891C58FA765AC6F9283A694 /* Pods-Table View Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Table View Demo/Info.plist";
@@ -406,6 +498,7 @@
 		};
 		FC66B0491C8F73FF00983C12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89433AD485B01915C2A89115 /* Pods-Table View Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Table View Demo/Info.plist";
@@ -482,6 +575,7 @@
 				FC66B0491C8F73FF00983C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC66B04A1C8F73FF00983C12 /* Build configuration list for PBXNativeTarget "Table View DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +584,7 @@
 				FC66B04C1C8F73FF00983C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC66B04D1C8F73FF00983C12 /* Build configuration list for PBXNativeTarget "Table View DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +593,7 @@
 				FC66B04F1C8F73FF00983C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
